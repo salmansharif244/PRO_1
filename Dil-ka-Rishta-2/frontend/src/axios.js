@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5000/api/', // Adjust the base URL as needed
+  baseURL: 'https://expressjs-backend-three.vercel.app/api', // Adjust the base URL as needed
 });
 
 // Add a request interceptor to include the token in headers
